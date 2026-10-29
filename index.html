@@ -1,152 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ButceTakip Privacy Policy</title>
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bütçe Takip / Budget Tracker gizlilik politikası, destek ve veri silme. Privacy, support and data deletion.">
+<title>Bütçe Takip / Budget Tracker — Gizlilik / Privacy</title>
 <style>
-body{
-font-family: Arial, sans-serif;
-background:#f5f7fb;
-margin:0;
-padding:40px;
-color:#111827;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-background:white;
-padding:40px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.05);
-}
-
-h1{
-margin-top:0;
-}
-
-h2{
-margin-top:30px;
-color:#1d4ed8;
-}
-
-p{
-line-height:1.6;
-}
-
-ul{
-line-height:1.6;
-}
-
-.footer{
-margin-top:40px;
-color:#6b7280;
-font-size:14px;
-}
+:root{color-scheme:light dark;--bg:#fff;--text:#202124;--muted:#515961;--line:#d8dde2;--link:#1656aa}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 system-ui,sans-serif;letter-spacing:0}
+header,main,footer{max-width:860px;margin:auto;padding:24px}header,footer{border-bottom:1px solid var(--line)}
+h1{font-size:30px;line-height:1.3;margin:12px 0;overflow-wrap:anywhere}h2{font-size:25px;line-height:1.4;margin:30px 0 12px}h3{font-size:19px;margin:28px 0 8px}
+p,ul{margin:10px 0}ul{padding-left:24px}a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}
+a:focus-visible{outline:3px solid var(--link);outline-offset:4px}nav{display:flex;flex-wrap:wrap;gap:12px 24px;padding:12px 0}
+.meta,footer{color:var(--muted);font-size:15px}section{scroll-margin-top:20px}#en{border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
+@media(max-width:480px){header,main,footer{padding:20px}h1{font-size:26px}}
+@media(prefers-color-scheme:dark){:root{--bg:#17191b;--text:#f0f2f4;--muted:#bbc3cb;--line:#454b51;--link:#9cc8ff}}
 </style>
 </head>
-
 <body>
-
-<div class="container">
-
-<h1>Privacy Policy – ButceTakip</h1>
-<p><b>Last updated:</b> March 25, 2026</p>
-
-<p>ButceTakip is a personal finance application designed to help users track income, expenses, credit cards, budgets and assets.</p>
-
-<p>Your privacy is important to us. This Privacy Policy explains how your data is handled when using the ButceTakip application.</p>
-
-<h2>1. Data Storage</h2>
-
-<p>All financial data entered into the application is stored locally on the user's device. This includes:</p>
-
+<header>
+<p class="meta">Bütçe Takip / Budget Tracker: Income Expense</p>
+<h1>Gizlilik Politikası / Privacy Policy</h1>
+<nav aria-label="Dil ve destek / Language and support"><a href="#tr" lang="tr">Türkçe</a><a href="#en" lang="en">English</a><a href="#deletion">Veri silme</a><a href="#deletion-en" lang="en">Data deletion</a><a href="mailto:ouzan83@gmail.com">Destek / Support</a></nav>
+</header>
+<main>
+<section id="tr" lang="tr" aria-labelledby="tr-title">
+<h2 id="tr-title">Gizlilik Politikası</h2>
+<p class="meta">Son güncelleme: <time datetime="2026-10-29">29 Ekim 2026</time></p>
+<p>Bu politika, Oğuz Han tarafından sunulan Bütçe Takip uygulamasını, iOS'taki Budget Tracker adını ve bu destek sayfasını kapsar. Özellikler platforma, sürüme ve test durumuna göre değişebilir. İletişim: <a href="mailto:ouzan83@gmail.com">ouzan83@gmail.com</a>.</p>
+<h3>1. Cihazdaki kayıtlar</h3>
+<p>Gelir, gider, bütçe hesabı, kategori, kredi kartı kaydı, varlık, borç, taksit ve alış maliyeti gibi girdiğiniz bilgiler cihazdaki uygulama veritabanında tutulur. Temel yerel takip için giriş zorunlu değildir. Uygulama banka hesabınıza bağlanıp para transferi yapmaz. Kart takibi, mağazaya ödeme yaptığınız kartın bilgilerine erişmek anlamına gelmez.</p>
+<h3>2. İsteğe bağlı giriş ve PRO hakları</h3>
+<p>Desteklenen sürümlerde Google veya Apple ile giriş Firebase Authentication üzerinden işlenir. Sağlayıcının ilettiği kullanıcı kimliği, e-posta, görünen ad ve oturum bilgileri; giriş, bulut yedekleri ve erişim haklarını hesabınızla eşleştirmek için kullanılabilir. Apple gizli e-posta adresi kullanılabilir. Uygulama Google veya Apple parolanızı almaz.</p>
+<p>Erken kullanıcı kampanyasındaki kalıcı PRO hakkı için kullanıcı kimliği ve hak kaydı sunucuda tutulabilir. Kampanya sayacı kişisel hak kaydından ayrıdır. Aynı hesapla yeniden girişte hakkınız geri yüklenebilir; uygulamayı kaldırmak bu kaydı silmez.</p>
+<h3>3. Bulut yedekleri ve dışa aktarma</h3>
+<p>Buluta yedeklemeyi seçtiğinizde yedek içeriği, tarih ve yedek kimliği Google Firebase Realtime Database'e, giriş yaptığınız hesaba bağlı olarak gönderilir. Yedek, finansal kayıtlarınız ve açıklamalarınız dahil dışa aktarılan uygulama verilerini içerebilir. Bu nedenle tüm finansal bilgilerin yalnızca cihazda kaldığını söylemiyoruz. Bulut yedekleme isteğe bağlıdır; bu özellik sürekli otomatik finansal veri eşitlemesi yapmaz.</p>
+<p>JSON yedekleri ve Excel dışa aktarmaları cihazda dosya oluşturabilir. Paylaşımı seçerseniz dosya seçtiğiniz uygulamaya veya alıcıya aktarılır. İndirilmiş, paylaşılmış ve işletim sistemince yedeklenmiş kopyalar ayrıdır; bir bulut yedeğini silmek bunları silmez.</p>
+<h3>4. Satın almalar ve abonelikler</h3>
+<p>Android satın almaları Google Play, iOS satın almaları Apple App Store tarafından işlenir. Uygulama ödeme kartınızın tam numarasını veya güvenlik kodunu almaz. Ürün kimliği, işlem kimliği, satın alma durumu ve abonelik bilgileri PRO erişimini sağlamak ve geri yüklemek için işlenebilir.</p>
+<p>Yeni Apple sunucu doğrulaması yalnızca etkinleştirildiği sürüm ve hesaplarda kullanılır. Bu akışta işlem kimliği ve hesap eşleştirme kimliği doğrulama sunucumuza iletilir; Apple'ın imzalı işlem ve abonelik durumu Apple servisleriyle kontrol edilir. Yerel bütçe kayıtları bu doğrulamanın girdisi değildir. Test işlemleri ile gerçek mağaza satın almaları ayrı ortamlardır.</p>
+<p>Hesabı veya uygulamayı silmek mağaza aboneliğini iptal etmez. Abonelik ve iadeler ilgili mağazadan yönetilir: <a href="https://support.apple.com/118428">Apple</a> ve <a href="https://support.google.com/googleplay/answer/7018481">Google Play</a>. iOS için <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standart Lisans Sözleşmesi</a> ayrıca geçerlidir; bu politika onun yerine geçmez.</p>
+<h3>5. Referans fiyatlar, izinler ve teknik bilgiler</h3>
+<p>Otomatik referans fiyat sorgularında döviz/varlık kodu, tarih ve hedef para birimi gibi bilgiler veri sağlayıcılarına gönderilebilir. Özelliğe göre Frankfurter, CoinGecko, Altınkaynak, jsDelivr/currency-api, Stooq, Gold API ve metals.live kullanılabilir. Bağlanılan servisler IP adresi ve bağlantı bilgileri gibi teknik verileri görebilir. Fiyatlar yaklaşık veya gecikmeli olabilir; yatırım tavsiyesi değildir.</p>
+<p>İzin verdiğiniz hatırlatmalar cihazda yerel bildirim olarak oluşturulur. Dosya seçme, paylaşma ve cihaz kilidi/biyometrik doğrulama işletim sistemi üzerinden yürütülür; uygulama parmak izi veya yüz şablonunu almaz. Destek e-postasına ya da TestFlight geri bildirimine eklediğiniz açıklama, ekran görüntüsü ve tanılama bilgileri destek için işlenebilir. Parola ve ödeme kartı bilgisi göndermeyin.</p>
+<h3>6. Alıcılar, güvenlik ve saklama</h3>
+<p>Verileriniz reklam için satılmaz veya kiralanmaz. Seçtiğiniz özellikler kapsamında Google/Firebase, Apple, fiyat sağlayıcıları ve dosya gönderdiğiniz alıcılar veri işleyebilir. Barındırma ve teknik hizmetler hizmet sağlayıcılarının bulunduğu ülkelerde işleme gerektirebilir. Google/Firebase ve Apple'ın kendi gizlilik politikaları da geçerlidir.</p>
+<p>Bulut yedeklerinin istemci erişimi oturum açmış kayıt sahibine sınırlandırılır; sunucu işlemleri gerekli hizmet yetkileriyle yürütülür. Ağ bağlantılarında HTTPS kullanılır. Mutlak güvenlik garantisi verilemez. Dışa aktarılan dosyaları güvenli saklayın; bu politika yedeklerin uçtan uca şifreli olduğunu iddia etmez.</p>
+<p>Yerel kayıtlar siz silene veya cihazdaki uygulama verileri kaldırılana kadar; bulut yedekleri ve hesap/hak kayıtları ilgili özellik ve silme talepleri kapsamında tutulur. Satın alma doğrulama ve teknik kayıtları erişim sağlama, hata giderme, kötüye kullanımı önleme ve gerekli hukuki yükümlülükler için gerekebildiği ölçüde saklanabilir. Destek yazışmaları talebin takibi için tutulabilir. Her kategori için sabit saklama süresi veya tüm kopyaların anında silineceği taahhüt edilmez.</p>
+<h3 id="deletion">7. Verileri ve hesabı silme</h3>
 <ul>
-<li>Income and expense records</li>
-<li>Accounts and credit card data</li>
-<li>Categories</li>
-<li>Asset records</li>
-<li>Backup files created by the user</li>
+<li>Yerel kayıtları uygulamadaki silme seçenekleriyle kaldırabilirsiniz. Uygulamayı kaldırmak, işletim sistemine ve saklanan kopyalara bağlı olarak cihaz verilerini kaldırabilir; bulut hesabını ve yedeklerini silmez.</li>
+<li>Giriş yaptıktan sonra Ayarlar &gt; Yedekleme bölümünde bulut yedeklerini tek tek silebilirsiniz. Dosya kopyalarını ayrıca saklandıkları yerden silmelisiniz.</li>
+<li>Hesabınızın ve ilişkili bulut verilerinin silinmesi için <a href="mailto:ouzan83@gmail.com?subject=B%C3%BCt%C3%A7e%20Takip%20hesap%20silme">ouzan83@gmail.com</a> adresine “Bütçe Takip hesap silme” konulu e-posta gönderin. Uygulamaya girişte kullandığınız e-postayı ve hesabı mı yoksa yalnızca yedekleri mi silmek istediğinizi belirtin. Apple gizli e-posta kullandıysanız bildirin; parola veya doğrulama kodu göndermeyin.</li>
+<li>Yetkisiz silmeyi önlemek için sahiplik doğrulaması gerekebilir. Uygulama içi hesap silme yalnızca sunulduğu sürümlerde kullanılabilir; tüm sürümlerde etkin değildir. Gerekli hukuki saklama istisnaları varsa talebin değerlendirilmesinde bildirilir.</li>
 </ul>
-
-<p>ButceTakip does not automatically upload or store user financial data on external servers.</p>
-
-<h2>2. Data Collection and Sharing</h2>
-
-<p>ButceTakip does not sell, rent, or share user financial data with third parties.</p>
-
-<p>No personal financial information is transmitted to the developer’s servers.</p>
-
-<h2>3. Purchases and Billing</h2>
-
-<p>If the user purchases a Pro subscription or premium feature, transactions are processed by Google Play Billing.</p>
-
-<p>This may include purchase status, subscription information and transaction identifiers.</p>
-
-<p>ButceTakip does not store or access users' payment card details.</p>
-
-<h2>4. Backups and Exported Data</h2>
-
-<p>The application allows users to export data, create backups, and share files.</p>
-
-<p>These files are fully controlled by the user and are not automatically transmitted.</p>
-
-<h2>5. Accounts</h2>
-
-<p>The application does not require user account registration to function.</p>
-
-<h2>6. Notifications</h2>
-
-<p>If enabled by the user, the app may send local notifications for reminders and financial tracking purposes.</p>
-
-<p>These notifications are generated on the device and are not sent from external servers.</p>
-
-<h2>7. Third-Party Services</h2>
-
-<p>ButceTakip may use platform services such as:</p>
-
+<p>Erişim, düzeltme veya silme talepleri için aynı destek adresini kullanabilirsiniz. Finansal kayıtlarınızın tamamını e-postaya eklemeniz gerekmez.</p>
+<h3>8. Çocuklar, bu sayfa ve değişiklikler</h3>
+<p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir. Bir çocuğun kişisel verisinin gönderildiğini düşünüyorsanız bize ulaşın. Bu statik sayfa GitHub Pages'te barındırılır; sağlayıcı teknik erişim bilgilerini işleyebilir. Sayfaya analiz veya reklam izleyicisi eklenmemiştir. Değişiklikler güncellenmiş tarihle burada yayımlanır.</p>
+</section>
+<section id="en" lang="en" aria-labelledby="en-title">
+<h2 id="en-title">Privacy Policy</h2>
+<p class="meta">Last updated: <time datetime="2026-10-29">October 29, 2026</time></p>
+<p>This policy covers Bütçe Takip, also named Budget Tracker: Income Expense on iOS, provided by Oğuz Han, and this support page. Features vary by platform, version and testing status. Contact: <a href="mailto:ouzan83@gmail.com">ouzan83@gmail.com</a>.</p>
+<h3>1. Records on your device</h3>
+<p>Income, expenses, budget accounts, categories, credit card records, assets, debts, installments and purchase costs you enter are stored in the app's local database. Basic local tracking does not require sign-in. The app does not connect to your bank to transfer money. Tracking a card does not give the app access to the card used to pay an app store.</p>
+<h3>2. Optional sign-in and PRO entitlements</h3>
+<p>In supported versions, Google or Apple sign-in is handled through Firebase Authentication. Provider-supplied user identifiers, email, display name and session information may be processed to associate sign-in, backups and entitlements with your account. Apple sign-in may use a private relay email. The app does not receive your Google or Apple password.</p>
+<p>A user identifier and entitlement record may be stored on the server for permanent early-user PRO access. The aggregate campaign counter is separate from personal entitlement records. Signing in again may restore access; uninstalling does not delete that record.</p>
+<h3>3. Cloud backups and exports</h3>
+<p>When you choose cloud backup, backup content, its date and identifier are sent to Google Firebase Realtime Database under your signed-in account. A backup may contain exported financial records and descriptions. We therefore do not claim that all financial information stays exclusively on your device. Cloud backup is optional; this feature does not continuously synchronize financial records automatically.</p>
+<p>JSON backups and Excel exports may create files on your device. Choosing to share sends a file to the app or recipient you select. Downloaded, shared and operating-system backup copies are separate; deleting a cloud backup does not delete those copies.</p>
+<h3>4. Purchases and subscriptions</h3>
+<p>Android purchases are processed by Google Play and iOS purchases by Apple's App Store. The app does not receive your full payment card number or security code. Product identifiers, transaction identifiers, purchase status and subscription information may be processed to provide and restore PRO access.</p>
+<p>The new Apple server-verification flow is used only for versions and accounts where enabled. A transaction identifier and account-association identifier are sent to our verification service; Apple's signed transaction and subscription status are checked using Apple services. Local budget records are not inputs to this verification. Test transactions and real store purchases use separate environments.</p>
+<p>Deleting an account or uninstalling does not cancel a store subscription. Manage subscriptions and refunds through the relevant store: <a href="https://support.apple.com/118428">Apple</a> or <a href="https://support.google.com/googleplay/answer/7018481">Google Play</a>. The <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a> applies separately on iOS; this policy does not replace it.</p>
+<h3>5. Reference prices, permissions and technical information</h3>
+<p>Automatic reference-price requests may send currency/asset codes, dates and target currencies to data providers. Depending on the feature, sources may include Frankfurter, CoinGecko, Altınkaynak, jsDelivr/currency-api, Stooq, Gold API and metals.live. Connected services may see your IP address and connection information. Prices may be approximate or delayed and are not investment advice.</p>
+<p>Enabled reminders are scheduled as local device notifications. File selection, sharing and device-lock/biometric authentication use operating-system services; the app does not receive fingerprint or facial templates. Descriptions, screenshots and diagnostics you submit by support email or TestFlight feedback may be processed for support. Do not send passwords or payment card details.</p>
+<h3>6. Recipients, security and retention</h3>
+<p>Your data is not sold or rented for advertising. Google/Firebase, Apple, price providers and recipients you select may process data as required by your chosen features. Hosting and technical services may involve processing in service providers' countries. Google's/Firebase's and Apple's own privacy policies also apply.</p>
+<p>Client access to cloud backups is restricted to the signed-in record owner; server operations use necessary service permissions. Network connections use HTTPS. No system guarantees absolute security. Protect exported files; this policy does not claim that backups are end-to-end encrypted.</p>
+<p>Local records remain until deleted or device app data is removed; cloud backups and account/entitlement records are retained for related features and deletion requests. Purchase-verification and technical records may be retained as needed for access, troubleshooting, abuse prevention and applicable legal obligations. Support correspondence may be retained to handle requests. We do not promise a fixed retention period for every category or instantaneous deletion of all copies.</p>
+<h3 id="deletion-en">7. Deleting data and your account</h3>
 <ul>
-<li>Google Play Services</li>
-<li>Google Play Billing</li>
+<li>Use the app's deletion options to remove local records. Uninstalling may remove device data depending on the operating system and retained copies; it does not delete your cloud account or backups.</li>
+<li>After signing in, individual cloud backups can be deleted under Settings &gt; Backup. Delete exported files separately wherever you stored them.</li>
+<li>To request deletion of your account and associated cloud data, email <a href="mailto:ouzan83@gmail.com?subject=Budget%20Tracker%20account%20deletion">ouzan83@gmail.com</a> with the subject “Budget Tracker account deletion.” Include your app sign-in email and whether you want the account or only backups deleted. Tell us if you use Apple private relay email; do not send passwords or verification codes.</li>
+<li>Ownership verification may be needed to prevent unauthorized deletion. In-app account deletion is available only in versions that offer it; it is not enabled in every version. Necessary legal retention exceptions will be communicated when handling your request.</li>
 </ul>
-
-<p>These services may process limited technical or transaction-related data according to their own policies.</p>
-
-<h2>8. Data Deletion</h2>
-
-<p>Users can delete their data by:</p>
-
-<ul>
-<li>Removing records inside the app</li>
-<li>Deleting exported files</li>
-<li>Uninstalling the application</li>
-</ul>
-
-<h2>9. Security</h2>
-
-<p>Users are responsible for securing their own devices and backup files.</p>
-
-<h2>10. Children's Privacy</h2>
-
-<p>ButceTakip is not directed at children under 13 and does not knowingly collect personal data from children.</p>
-
-<h2>11. Policy Changes</h2>
-
-<p>This Privacy Policy may be updated. Changes will be reflected on this page.</p>
-
-<h2>12. Contact</h2>
-
-<p>If you have any questions, contact:</p>
-
-<p><b>Email:</b> ouzan83@gmail.com</p>
-
-<div class="footer">
-ButceTakip Privacy Policy
-</div>
-
-</div>
-
+<p>Use the same support address for access, correction or deletion requests. You do not need to attach your complete financial records.</p>
+<h3>8. Children, this page and changes</h3>
+<p>The app is not directed at children under 13. Contact us if you believe a child's personal data has been submitted. This static page is hosted on GitHub Pages, whose provider may process technical access information. No analytics or advertising tracker has been added to this page. Changes are published here with an updated date.</p>
+</section>
+</main>
+<footer><p>Destek / Support: <a href="mailto:ouzan83@gmail.com">ouzan83@gmail.com</a> · <a href="https://policies.google.com/privacy">Google Privacy</a> · <a href="https://firebase.google.com/support/privacy">Firebase Privacy</a> · <a href="https://www.apple.com/legal/privacy/">Apple Privacy</a> · <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy</a></p></footer>
 </body>
 </html>
